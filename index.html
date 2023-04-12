@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>18CSE301J_RA2011028010018/</title>
+    <style>
+      body {
+        background: linear-gradient(to bottom right, #cf18eb, #4550cf);
+        font-size: 1.2rem;
+      }
+      
+      .video-container {
+        margin: 0 auto;
+        width: 80%; /* smaller size */
+        height: 2;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        position: relative;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+      
+      .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .header {
+        text-align: center;
+        margin: 50px auto;
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        position: relative;
+        padding: 20px;
+        text-shadow: 2px 2px #000;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;
+        border: 1px solid #fff; /* added border */
+      }
+      
+      .info-header {
+        text-align: center;
+        margin: 20px auto 10px; /* adjusted margin */
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        position: relative;
+        padding: 10px;
+        text-shadow: 2px 2px #000;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #fff;
+        border: 1px solid #fff; /* added border */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="info-header">
+      <h2>Information Visualization 18CSE301J</h2>
+    </div>
+    <div class="header">
+      <h3>Immersive 3D Geospatial Data Visualization on Indian Weather</h3>
+    </div>
+    <div class="video-container">
+      <video controls>
+        <source src="my-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </body>
+</html>
